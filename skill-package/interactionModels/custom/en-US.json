@@ -1,0 +1,54 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hello world",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "OpenThePodBayDoorIntent",
+                    "slots": [],
+                    "samples": [
+                        "open the pod bay door",
+                        "open the pod bay doors",
+                        "open the pod bay doors hal",
+                        "hal open the pod bay doors"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+  }
+  
